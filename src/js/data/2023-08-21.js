@@ -38,70 +38,70 @@ dataSet[dataSetVersion].options = [
     },
     {
       name: "Cancri",
-      img: "Capricoris.png",
+      img: "Capricoris.PNG",
       opts: {
         erp: [ "anti"]
       }
     },
     {
       name: "Capricoris",
-      img: "Capricoris.png",
+      img: "Capricoris.PNG",
       opts: {
         erp: [ "anti"]
       }
     },
     {
       name: "Cetia",
-      img: "cetia.png",
+      img: "cetia.PNG",
       opts: {
         erp: [ "anti"]
       }
     },
     {
       name: "Geminorum",
-      img: "Geminorum.png",
+      img: "Geminorum.PNG",
       opts: {
         erp: [ "anti"]
       }
     },
     {
       name: "Leonis",
-      img: "Leonis.png",
+      img: "Leonis.PNG",
       opts: {
         erp: [ "anti"]
       }
     },
     {
       name: "Librae",
-      img: "Librae.png",
+      img: "Librae.PNG",
       opts: {
         erp: [ "anti"]
       }
     },
     {
       name: "Piscium",
-      img: "Piscium.png",
+      img: "Piscium.PNG",
       opts: {
         game: ["nano"]
       }
     },
     {
       name: "Sagittaria",
-      img: "Sagittaria.png",
+      img: "Sagittaria.PNG",
       opts: {
         game: ["nano"]
       }
     },
     {
       name: "Scorpius",
-      img: "Scorpius.png",
+      img: "Scorpius.PNG",
       opts: {
         game: ["nano"]
       }
     },
     {
       name: "Serpentarius",
-      img: "Serpentarius.png",
+      img: "Serpentarius.PNG",
       opts: {
         erp: [ "anti"]
       }
