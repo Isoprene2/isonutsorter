@@ -38,7 +38,7 @@ dataSet[dataSetVersion].options = [
     },
     {
       name: "Cancri",
-      img: "Capricoris.PNG",
+      img: "Cancri.PNG",
       opts: {
         erp: [ "anti"]
       }
