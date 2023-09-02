@@ -52,7 +52,7 @@ dataSet[dataSetVersion].options = [
     },
     {
       name: "Cetia",
-      img: "cetia.PNG",
+      img: "Cetia.PNG",
       opts: {
         erp: [ "anti"]
       }
