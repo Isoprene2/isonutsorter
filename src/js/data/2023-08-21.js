@@ -16,78 +16,113 @@ dataSet[dataSetVersion].options = [
   
   dataSet[dataSetVersion].characterData = [
     {
-      name: "Hetzl Garr",
-      img: "hetzav.png",
+      name: "Aquari",
+      img: "Aquari.PNG",
       opts: {
         erp: [ "anti"]
       }
     },
     {
-      name: "Lusai Dzanagh",
-      img: "lusav.png",
+      name: "Arachne",
+      img: "Arachne.PNG",
       opts: {
         erp: [ "anti"]
       }
     },
     {
-      name: "Fayn Krysolt",
-      img: "faynav3.png",
+      name: "Arietis",
+      img: "Arietis.PNG",
       opts: {
         erp: [ "anti"]
       }
     },
     {
-      name: "Lutzyn Kresajh",
-      img: "lutzav.png",
+      name: "Cancri",
+      img: "Capricoris.png",
       opts: {
         erp: [ "anti"]
       }
     },
     {
-      name: "Duemis",
-      img: "dueav2.png",
+      name: "Capricoris",
+      img: "Capricoris.png",
       opts: {
         erp: [ "anti"]
       }
     },
     {
-      name: "Skalhareth",
-      img: "skalav.png",
+      name: "Cetia",
+      img: "cetia.png",
       opts: {
         erp: [ "anti"]
       }
     },
     {
-      name: "Bantzerash",
-      img: "bantav2.png",
+      name: "Geminorum",
+      img: "Geminorum.png",
       opts: {
         erp: [ "anti"]
       }
     },
     {
-      name: "Erayl Vrynath",
-      img: "fire.png",
+      name: "Leonis",
+      img: "Leonis.png",
+      opts: {
+        erp: [ "anti"]
+      }
+    },
+    {
+      name: "Librae",
+      img: "Librae.png",
+      opts: {
+        erp: [ "anti"]
+      }
+    },
+    {
+      name: "Piscium",
+      img: "Piscium.png",
       opts: {
         game: ["nano"]
       }
     },
     {
-      name: "Satza Renak",
-      img: "arm.jpeg",
+      name: "Sagittaria",
+      img: "Sagittaria.png",
       opts: {
         game: ["nano"]
       }
     },
     {
-      name: "Coa Lastnamehere",
-      img: "shark.jpeg",
+      name: "Scorpius",
+      img: "Scorpius.png",
       opts: {
         game: ["nano"]
       }
     },
     {
-      name: "Serakhruhn",
-      img: "serav.png",
+      name: "Serpentarius",
+      img: "Serpentarius.png",
+      opts: {
+        erp: [ "anti"]
+      }
+    },
+    {
+      name: "Spes",
+      img: "Spes.PNG",
+      opts: {
+        erp: [ "anti"]
+      }
+    },
+    {
+      name: "Tauri",
+      img: "Tauri.PNG",
+      opts: {
+        erp: [ "anti"]
+      }
+    },
+    {
+      name: "Virginis",
+      img: "Virginis.PNG",
       opts: {
         erp: [ "anti"]
       }
