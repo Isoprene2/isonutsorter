@@ -6,7 +6,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by setting",
       key: "setting",
       tooltip: "Check these to only include characters from certain settings.",
-      checked: true,
+      checked: false,
       sub: [
         { name: "Lilaverse (Test Reality, There, Limbo)", key: "lila" },
         { name: "SYOL", key: "syol" },
@@ -29,7 +29,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by group",
       key: "group",
       tooltip: "Check these to only include characters of certain categories.",
-      checked: true,
+      checked: false,
       sub: [
         { name: "Protagonists", key: "protag" },
         { name: "Meme Characters", key: "meme" },
@@ -46,7 +46,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by notability",
       key: "notab",
       tooltip: "Check these to only include characters of certain levels of notability.",
-      checked: true,
+      checked: false,
       sub: [
         { name: "Popular OCs", key: "pop" },
         { name: "Was in the Isonut Tournament", key: "tour" },
