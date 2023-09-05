@@ -942,12 +942,948 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
+      name: "Corone Violaceus",
+      img: "Corone.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Cosimo Gualtier",
+      img: "Cosimo.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["dicro"],
+        notab: []
+      }
+    },
+    {
+      name: "Cressula Fairouz",
+      img: "Cressula.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Crona",
+      img: "Crona.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Crucifera Bishopi",
+      img: "Crucifera.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Dakota Warren",
+      img: "Dakota.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Danica Leclair",
+      img: "Danica.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Datura",
+      img: "Datura.PNG",
+      opts: {
+        setting: ["side"],
+        group: ["ignis"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Dauphine Nacreous",
+      img: "Dauphine.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Deius Noceur",
+      img: "Deius.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["protag"],
+        notab: ["pop", "th", "rp"]
+      }
+    },
+    {
+      name: "Demon Hands McGee",
+      img: "DemonHandsMcGee.PNG",
+      opts: {
+        setting: ["side"],
+        group: ["meme"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Desima Vespus",
+      img: "Desima.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Devon Rex Ailswen",
+      img: "DevonRex.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Diaemus Desmodus",
+      img: "DIaemus.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Dianthe Katriel",
+      img: "Dianthe.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["dicro"],
+        notab: []
+      }
+    },
+    {
+      name: "Dicro Corrune",
+      img: "Dicro.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["protag", "ignis", "dicro"],
+        notab: ["pop", "tourn", "th", "rp", "plot"]
+      }
+    },
+    {
+      name: "Dioclea Hexandra",
+      img: "Dioclea.PNG",
+      opts: {
+        setting: ["hell"],
+        group: ["ignis"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Doctor Chainsaw",
+      img: "DoctorChainsaw.PNG",
+      opts: {
+        setting: ["hell"],
+        group: ["meme"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Dulce-Malois Fandango",
+      img: "DMF.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["protag"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Ea",
+      img: "Ea.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Echelle",
+      img: "Echelle.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Eirlys Wynne",
+      img: "Eirlys.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Eirwen Berglund",
+      img: "Eirwen.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Elemon Ohod",
+      img: "Elemon.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["reps"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Eleutheria Parthenope",
+      img: "Eleutheria.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Elmand",
+      img: "Elmand.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Eloise Schuler",
+      img: "Eloise.PNG",
+      opts: {
+        setting: ["psu"],
+        group: ["antag"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Emera",
+      img: "Emera.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Endael/Elliot Andeville",
+      img: "Endael.PNG",
+      opts: {
+        setting: ["asth"],
+        group: ["protag"],
+        notab: []
+      }
+    },
+    {
+      name: "Eo",
+      img: "Eo.PNG",
+      opts: {
+        setting: ["asth"],
+        group: ["protag"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Erimentha Richmond",
+      img: "Erimentha.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["protag"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Ernest Clarence",
+      img: "Ernest.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Eros",
+      img: "Eros.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Essery Revelin",
+      img: "Essery.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["dicro"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Esva",
+      img: "Esva.PNG",
+      opts: {
+        setting: ["al2"],
+        group: [],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Eta Eridani",
+      img: "Eta.PNG",
+      opts: {
+        setting: ["rpg"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Etoile Celestella",
+      img: "Etoile.PNG",
+      opts: {
+        setting: ["cele"],
+        group: ["protag"],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Euanthe Audiveile",
+      img: "Euanthe.PNG",
+      opts: {
+        setting: ["rpg"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Euphesme Misericordia",
+      img: "Euphesme.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["antag"],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Euryhalia Nacreous",
+      img: "Euryhalia.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "FFXIVcro",
+      img: "FFXIVcro.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["meme", "dicro"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "FLO",
+      img: "FLO.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["supb"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Felicity Gottschalk",
+      img: "Felicity.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Felina Boteille",
+      img: "Felina.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Filael",
+      img: "Filael.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Flann Fennella",
+      img: "Flann.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["reps"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Floor Slut/Flory",
+      img: "FloorSlut.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["antag", "meme"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Flyri",
+      img: "Flyri.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Fray",
+      img: "Fray.PNG",
+      opts: {
+        setting: ["lila"],
+        group: [],
+        notab: ["pop", "th", "rp", "plot"]
+      }
+    },
+    {
+      name: "Fredericks",
+      img: "Fredericks.PNG",
+      opts: {
+        setting: ["lila"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Frenzael Bon Moel",
+      img: "Frenzael.PNG",
+      opts: {
+        setting: ["side", "misc"],
+        group: ["supb", "dicro"],
+        notab: ["pop", "tourn", "th", "rp", "plot"]
+      }
+    },
+    {
+      name: "Fyel",
+      img: "Fyel.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "GSGal",
+      img: "GSGal.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["meme"],
+        notab: []
+      }
+    },
+    {
+      name: "Gabriel",
+      img: "Gabriel.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Ganymede",
+      img: "Ganymede.PNG",
+      opts: {
+        setting: ["side", "hell"],
+        group: [],
+        notab: ["pop", "tourn", "th", "rp", "plot"]
+      }
+    },
+    {
+      name: "Gauss Azimech",
+      img: "Gauss.PNG",
+      opts: {
+        setting: ["rpg"],
+        group: ["antag"],
+        notab: []
+      }
+    },
+    {
+      name: "Gehenael",
+      img: "Gehenael.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: []
+      }
+    },
+    {
       name: "Geminorum",
       img: "Geminorum.PNG",
       opts: {
         setting: ["side"],
         group: ["sidep"],
         notab: ["pop", "tourn", "rp", "plot"]
+      }
+    },
+    {
+      name: "Gerlinde Gabbrostea",
+      img: "Gerlinde.PNG",
+      opts: {
+        setting: ["rpg", "hell"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Glaucio Deseronto",
+      img: "Glaucio.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["dicro"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Granatum",
+      img: "Granatum.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Guindet",
+      img: "Guindet.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Gulisa",
+      img: "Gulisa.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Hadris Torant",
+      img: "Hadris.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["protag", "antag"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Hal",
+      img: "Hal.PNG",
+      opts: {
+        setting: ["hell"],
+        group: ["ignis"],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Halatia Drosophil",
+      img: "Halatia.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Halim",
+      img: "Halim.PNG",
+      opts: {
+        setting: ["en2"],
+        group: ["ignis"],
+        notab: ["pop", "rp", "plot"]
+      }
+    },
+    {
+      name: "Halyn",
+      img: "Halyn.PNG",
+      opts: {
+        setting: ["lila"],
+        group: [],
+        notab: ["pop", "tourn", "rp", "plot"]
+      }
+    },
+    {
+      name: "Hamal",
+      img: "Hamal.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Hania Anginn",
+      img: "Hania.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Haniel",
+      img: "Haniel.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Haplopelma Bishopi",
+      img: "Pelma.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Harena Bichon",
+      img: "Hare.PNG",
+      opts: {
+        setting: ["cele"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Haruto",
+      img: "Haruto.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Hattie Cecile",
+      img: "Hattie.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Hellscream",
+      img: "Hellscream.PNG",
+      opts: {
+        setting: ["cele"],
+        group: ["antag"],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Her",
+      img: "Her.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["antag", "them"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Herelia",
+      img: "Herelia.PNG",
+      opts: {
+        setting: ["syol"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Hestael",
+      img: "Hestael.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Hiemalis Timoris",
+      img: "Hiemalis.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Hong Jing",
+      img: "Jing.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Humilia",
+      img: "Humilia.PNG",
+      opts: {
+        setting: ["side", "heav"],
+        group: ["supb"],
+        notab: ["pop", "tourn", "rp", "plot"]
+      }
+    },
+    {
+      name: "Icisa",
+      img: "Icisa.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Ilnaine",
+      img: "Ilnaine.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Indico Morion",
+      img: "Indico.PNG",
+      opts: {
+        setting: ["vn"],
+        group: ["antag"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Irma Penrose",
+      img: "Irma.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Iroha",
+      img: "Iroha.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Isabella Palmer",
+      img: "Isabella.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Isadorus",
+      img: "Isadorus.PNG",
+      opts: {
+        setting: ["al2"],
+        group: ["antag"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Isblau Cristata",
+      img: "Isblau.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Ishtar",
+      img: "Ishtar.PNG",
+      opts: {
+        setting: ["side"],
+        group: ["antag"],
+        notab: []
+      }
+    },
+    {
+      name: "Iskal",
+      img: "Iskal.PNG",
+      opts: {
+        setting: ["cele"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Islette Paradisa",
+      img: "Islette.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Istra",
+      img: "Istra.PNG",
+      opts: {
+        setting: ["hell", "misc"],
+        group: ["protag"],
+        notab: ["pop", "tourn", "th", "rp", "plot"]
+      }
+    },
+    {
+      name: "Jacinth",
+      img: "Jacinth.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Jacqueline Parrish",
+      img: "Jacqueline.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Jophiel",
+      img: "Jophiel.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Josmec",
+      img: "Josmec.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["antag", "oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Juniper Russell",
+      img: "Juniper.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Justine Lusine",
+      img: "Justine.PNG",
+      opts: {
+        setting: ["hell"],
+        group: ["meme"],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Kameila Carabaffe",
+      img: "Kameila.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Kanon",
+      img: "Kanon.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Karina Cirice",
+      img: "Karina.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Karkinos",
+      img: "Karkinos.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "The Keeper of the Forbidden Knowledge of Victorius III",
+      img: "Keepy.PNG",
+      opts: {
+        setting: ["hell", "al2"],
+        group: ["meme"],
+        notab: ["rp"]
       }
     },
     {
