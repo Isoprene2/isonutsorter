@@ -1148,7 +1148,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["syol"],
         group: ["reps"],
-        notab: ["rp"]
+        notab: ["rp", "th"]
       }
     },
     {
