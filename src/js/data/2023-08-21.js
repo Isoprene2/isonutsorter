@@ -362,7 +362,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: ["pop", "rp"]
+        notab: ["rp"]
       }
     },
     {
