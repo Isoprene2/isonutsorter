@@ -1060,7 +1060,7 @@ dataSet[dataSetVersion].options = [
     },
     {
       name: "Diaemus Desmodus",
-      img: "DIaemus.PNG",
+      img: "Diaemus.PNG",
       opts: {
         setting: ["misc"],
         group: [],
@@ -1185,10 +1185,10 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
-      name: "Emera",
-      img: "Emera.PNG",
+      name: "Emeraude",
+      img: "Emeraude.PNG",
       opts: {
-        setting: ["misc"],
+        setting: ["side"],
         group: [],
         notab: []
       }
@@ -3535,7 +3535,7 @@ dataSet[dataSetVersion].options = [
     },
     {
       name: "Vitara",
-      img: "Viatara.PNG",
+      img: "Vitara.PNG",
       opts: {
         setting: ["lila"],
         group: ["oress", "them"],
