@@ -3703,5 +3703,5 @@ dataSet[dataSetVersion].options = [
         group: [],
         notab: ["th", "rp"]
       }
-    },
+    }
   ]
