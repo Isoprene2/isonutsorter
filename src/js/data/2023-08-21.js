@@ -1,4 +1,4 @@
-dataSetVersion = "2023-09-04"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2023-09-05"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -8,7 +8,8 @@ dataSet[dataSetVersion].options = [
       tooltip: "Check these to only include characters from certain settings.",
       checked: false,
       sub: [
-        { name: "Lilaverse (Test Reality, There, Limbo)", key: "lila" },
+        { name: "Test Reality", key: "lila" },
+        { name: "There/Limbo", key: "there" },
         { name: "SYOL", key: "syol" },
         { name: "Asthenopia", key: "asth" },
         { name: "RPG Hell", key: "rpg" },
@@ -36,11 +37,11 @@ dataSet[dataSetVersion].options = [
         { name: "Meme Characters", key: "meme" },
         { name: "Superior Beings", key: "supb" },
         { name: "Oress Holders", key: "oress" },
-        { name: "Them", key: "them" },
         { name: "Representatives", key: "reps" },
         { name: "Siderean Pantheon", key: "sidep" },
         { name: "Fanfernals/Ignis-Adjacent", key: "ignis" },
-        { name: "Dicros", key: "dicro" }
+        { name: "Dicros", key: "dicro" },
+        { name: "Iso's Favs", key: "favs" }
       ]
     },
   {
@@ -53,7 +54,9 @@ dataSet[dataSetVersion].options = [
         { name: "Was in the Isonut Tournament", key: "tourn" },
         { name: "Has a Toyhouse profile", key: "th" },
         { name: "Has been RPed with on Interrobang", key: "rp" },
-        { name: "Relevant to the En2rety plot", key: "plot" }
+        { name: "Has been RPed with, but not in years", key: "old" },
+        { name: "Relevant to the En2rety plot", key: "plot" },
+        { name: "Obscure OCs", key: "niche" }
       ]
     }
   ];
@@ -73,7 +76,7 @@ dataSet[dataSetVersion].options = [
       img: "2leris.PNG",
       opts: {
         setting: ["en2"],
-        group: [],
+        group: ["favs"],
         notab: ["rp", "plot"]
       }
     },
@@ -119,7 +122,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -146,7 +149,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["hell"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -173,7 +176,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: [],
-        notab: []
+        notab: ["old", "niche"]
       }
     },
     {
@@ -200,15 +203,6 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: ["rp"]
-      }
-    },
-    {
-      name: "Altcro",
-      img: "Altcro.PNG",
-      opts: {
-        setting: ["alt"],
-        group: ["dicro"],
         notab: ["rp"]
       }
     },
@@ -253,7 +247,7 @@ dataSet[dataSetVersion].options = [
       img: "Anacrusia.PNG",
       opts: {
         setting: ["mds"],
-        group: ["protag"],
+        group: ["protag", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -271,7 +265,7 @@ dataSet[dataSetVersion].options = [
       img: "Andromeda.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -290,14 +284,14 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["psu"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
       name: "Anisa",
       img: "Anisa.PNG",
       opts: {
-        setting: ["alt"],
+        setting: ["alt", "misc"],
         group: [],
         notab: ["rp"]
       }
@@ -316,7 +310,7 @@ dataSet[dataSetVersion].options = [
       img: "Aoaea.PNG",
       opts: {
         setting: ["hell"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -325,7 +319,7 @@ dataSet[dataSetVersion].options = [
       img: "Aquari.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "tourn", "rp", "plot"]
       }
     },
@@ -343,7 +337,7 @@ dataSet[dataSetVersion].options = [
       img: "Arachne.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "rp", "plot"]
       }
     },
@@ -351,9 +345,9 @@ dataSet[dataSetVersion].options = [
       name: "Arella",
       img: "Arella.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["antag", "them"],
-        notab: ["pop"]
+        setting: ["there"],
+        group: ["antag"],
+        notab: ["pop", "old"]
       }
     },
     {
@@ -379,7 +373,7 @@ dataSet[dataSetVersion].options = [
       img: "Arietis.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "tourn", "rp", "plot"]
       }
     },
@@ -389,7 +383,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["mds"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -398,7 +392,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -407,7 +401,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -424,7 +418,7 @@ dataSet[dataSetVersion].options = [
       img: "Astor.PNG",
       opts: {
         setting: ["misc"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "th", "rp"]
       }
     },
@@ -442,7 +436,7 @@ dataSet[dataSetVersion].options = [
       img: "Astrid.PNG",
       opts: {
         setting: ["en2"],
-        group: ["protag", "antag"],
+        group: ["protag", "antag", "favs"],
         notab: ["pop", "tourn", "rp", "plot"]
       }
     },
@@ -452,7 +446,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -469,7 +463,7 @@ dataSet[dataSetVersion].options = [
       img: "Aurelia.PNG",
       opts: {
         setting: ["psu"],
-        group: [""],
+        group: [],
         notab: ["rp"]
       }
     },
@@ -478,7 +472,7 @@ dataSet[dataSetVersion].options = [
       img: "Azior.PNG",
       opts: {
         setting: ["rpg"],
-        group: [],
+        group: ["favs"],
         notab: ["th", "rp"]
       }
     },
@@ -487,7 +481,7 @@ dataSet[dataSetVersion].options = [
       img: "Azrael.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: []
       }
     },
@@ -497,7 +491,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: ["protag"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -514,7 +508,7 @@ dataSet[dataSetVersion].options = [
       img: "Belinda.PNG",
       opts: {
         setting: ["psu"],
-        group: [],
+        group: ["favs"],
         notab: []
       }
     },
@@ -533,7 +527,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["psu"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -542,7 +536,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -550,7 +544,7 @@ dataSet[dataSetVersion].options = [
       img: "Bonnie.PNG",
       opts: {
         setting: ["asth"],
-        group: ["meme"],
+        group: ["meme", "favs"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -568,7 +562,7 @@ dataSet[dataSetVersion].options = [
       img: "Breccia.PNG",
       opts: {
         setting: ["rpg"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -577,7 +571,7 @@ dataSet[dataSetVersion].options = [
       img: "Brossard.PNG",
       opts: {
         setting: ["misc"],
-        group: ["protag"],
+        group: ["protag", "favs"],
         notab: ["rp"]
       }
     },
@@ -586,7 +580,7 @@ dataSet[dataSetVersion].options = [
       img: "Bunny.PNG",
       opts: {
         setting: ["lila", "misc"],
-        group: ["meme", "supb"],
+        group: ["meme", "supb", "favs"],
         notab: ["pop", "tourn", "th", "rp", "plot"]
       }
     },
@@ -604,7 +598,7 @@ dataSet[dataSetVersion].options = [
       img: "Calando.PNG",
       opts: {
         setting: ["mds"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -613,7 +607,7 @@ dataSet[dataSetVersion].options = [
       img: "Calisto.PNG",
       opts: {
         setting: ["hell"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -622,7 +616,7 @@ dataSet[dataSetVersion].options = [
       img: "Calore.PNG",
       opts: {
         setting: ["mds"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -631,7 +625,7 @@ dataSet[dataSetVersion].options = [
       img: "Cancri.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "rp"]
       }
     },
@@ -649,7 +643,7 @@ dataSet[dataSetVersion].options = [
       img: "Capricoris.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "rp"]
       }
     },
@@ -658,7 +652,7 @@ dataSet[dataSetVersion].options = [
       img: "Carisel.PNG",
       opts: {
         setting: ["rpg"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -685,7 +679,7 @@ dataSet[dataSetVersion].options = [
       img: "Cassie.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -739,7 +733,7 @@ dataSet[dataSetVersion].options = [
       img: "Cel.PNG",
       opts: {
         setting: ["lila"],
-        group: ["protag", "oress"],
+        group: ["protag", "oress", "favs"],
         notab: ["pop", "tourn", "th", "rp", "plot"]
       }
     },
@@ -776,7 +770,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["asth"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -784,7 +778,7 @@ dataSet[dataSetVersion].options = [
       img: "Cendrillon.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: []
       }
     },
@@ -803,7 +797,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: [],
-        notab: ["rp"]
+        notab: ["rp", "niche"]
       }
     },
     {
@@ -811,7 +805,7 @@ dataSet[dataSetVersion].options = [
       img: "Cetia.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -829,7 +823,7 @@ dataSet[dataSetVersion].options = [
       img: "Chamuel.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -856,7 +850,7 @@ dataSet[dataSetVersion].options = [
       img: "Chaurus.PNG",
       opts: {
         setting: ["hell"],
-        group: ["ignis"],
+        group: ["ignis", "favs"],
         notab: ["pop", "tourn", "th", "rp", "plot"]
       }
     },
@@ -884,7 +878,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -902,7 +896,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -910,7 +904,7 @@ dataSet[dataSetVersion].options = [
       img: "Ciess.PNG",
       opts: {
         setting: ["lila"],
-        group: ["oress"],
+        group: ["oress", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -918,8 +912,8 @@ dataSet[dataSetVersion].options = [
       name: "Clevae",
       img: "Clevae.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["them"],
+        setting: ["there"],
+        group: [],
         notab: ["rp"]
       }
     },
@@ -937,7 +931,7 @@ dataSet[dataSetVersion].options = [
       img: "Coris.PNG",
       opts: {
         setting: ["al2"],
-        group: ["protag", "dicro"],
+        group: ["protag", "dicro", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -956,7 +950,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: ["dicro"],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -965,7 +959,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["hell"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -974,7 +968,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -982,7 +976,7 @@ dataSet[dataSetVersion].options = [
       img: "Crucifera.PNG",
       opts: {
         setting: ["hell"],
-        group: [],
+        group: ["favs"],
         notab: ["th", "rp"]
       }
     },
@@ -1018,7 +1012,7 @@ dataSet[dataSetVersion].options = [
       img: "Dauphine.PNG",
       opts: {
         setting: ["heav"],
-        group: [],
+        group: ["favs"],
         notab: ["th", "rp"]
       }
     },
@@ -1027,7 +1021,7 @@ dataSet[dataSetVersion].options = [
       img: "Deius.PNG",
       opts: {
         setting: ["misc"],
-        group: ["protag"],
+        group: ["protag", "favs"],
         notab: ["pop", "th", "rp"]
       }
     },
@@ -1046,7 +1040,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["hell"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -1064,7 +1058,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -1073,7 +1067,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: ["dicro"],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -1081,7 +1075,7 @@ dataSet[dataSetVersion].options = [
       img: "Dicro.PNG",
       opts: {
         setting: ["lila"],
-        group: ["protag", "ignis", "dicro"],
+        group: ["protag", "ignis", "dicro", "favs"],
         notab: ["pop", "tourn", "th", "rp", "plot"]
       }
     },
@@ -1090,7 +1084,7 @@ dataSet[dataSetVersion].options = [
       img: "Dioclea.PNG",
       opts: {
         setting: ["hell"],
-        group: ["ignis"],
+        group: ["ignis", "favs"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -1127,7 +1121,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: [],
-        notab: ["rp"]
+        notab: ["rp", "niche"]
       }
     },
     {
@@ -1145,7 +1139,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["psu"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -1162,7 +1156,7 @@ dataSet[dataSetVersion].options = [
       img: "Eleutheria.PNG",
       opts: {
         setting: ["heav"],
-        group: [],
+        group: ["favs"],
         notab: ["th"]
       }
     },
@@ -1185,12 +1179,21 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
+      name: "Eltham Solenne",
+      img: "Eltham.PNG",
+      opts: {
+        setting: ["mds"],
+        group: ["ignis"],
+        notab: ["niche"]
+      }
+    },
+    {
       name: "Emeraude",
       img: "Emeraude.PNG",
       opts: {
         setting: ["side"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -1226,7 +1229,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: [],
-        notab: []
+        notab: ["old", "niche"]
       }
     },
     {
@@ -1234,7 +1237,7 @@ dataSet[dataSetVersion].options = [
       img: "Eros.png",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -1252,7 +1255,7 @@ dataSet[dataSetVersion].options = [
       img: "Esva.PNG",
       opts: {
         setting: ["al2"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -1279,7 +1282,7 @@ dataSet[dataSetVersion].options = [
       img: "Euanthe.PNG",
       opts: {
         setting: ["rpg"],
-        group: [],
+        group: ["favs"],
         notab: ["th", "rp"]
       }
     },
@@ -1289,7 +1292,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: ["antag"],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -1324,7 +1327,7 @@ dataSet[dataSetVersion].options = [
       img: "Felicity.PNG",
       opts: {
         setting: ["heav"],
-        group: [],
+        group: ["favs"],
         notab: ["th", "rp"]
       }
     },
@@ -1343,7 +1346,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["asth"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -1360,7 +1363,7 @@ dataSet[dataSetVersion].options = [
       img: "FloorSlut.png",
       opts: {
         setting: ["misc"],
-        group: ["antag", "meme"],
+        group: ["antag", "meme", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -1368,9 +1371,9 @@ dataSet[dataSetVersion].options = [
       name: "Flyri",
       img: "Flyri.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["oress", "them"],
-        notab: []
+        setting: ["lila", "there"],
+        group: ["oress"],
+        notab: ["old"]
       }
     },
     {
@@ -1386,9 +1389,9 @@ dataSet[dataSetVersion].options = [
       name: "Fredericks",
       img: "Fredericks.PNG",
       opts: {
-        setting: ["lila"],
+        setting: ["there"],
         group: [],
-        notab: []
+        notab: ["old", "niche"]
       }
     },
     {
@@ -1396,7 +1399,7 @@ dataSet[dataSetVersion].options = [
       img: "Frenzael.PNG",
       opts: {
         setting: ["side", "misc"],
-        group: ["supb", "dicro"],
+        group: ["supb", "dicro", "favs"],
         notab: ["pop", "tourn", "th", "rp", "plot"]
       }
     },
@@ -1405,8 +1408,8 @@ dataSet[dataSetVersion].options = [
       img: "Fyel.PNG",
       opts: {
         setting: ["lila"],
-        group: ["oress"],
-        notab: []
+        group: ["oress", "favs"],
+        notab: ["old"]
       }
     },
     {
@@ -1415,7 +1418,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: ["meme"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -1423,7 +1426,7 @@ dataSet[dataSetVersion].options = [
       img: "Gabriel.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -1432,7 +1435,7 @@ dataSet[dataSetVersion].options = [
       img: "Ganymede.PNG",
       opts: {
         setting: ["side", "hell"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "tourn", "th", "rp", "plot"]
       }
     },
@@ -1442,7 +1445,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["rpg"],
         group: ["antag"],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -1451,7 +1454,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["asth"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -1459,7 +1462,7 @@ dataSet[dataSetVersion].options = [
       img: "Geminorum.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "tourn", "rp", "plot"]
       }
     },
@@ -1495,8 +1498,8 @@ dataSet[dataSetVersion].options = [
       img: "Guindet.PNG",
       opts: {
         setting: ["lila"],
-        group: ["oress"],
-        notab: []
+        group: ["oress", "favs"],
+        notab: ["old"]
       }
     },
     {
@@ -1513,7 +1516,7 @@ dataSet[dataSetVersion].options = [
       img: "Hadris.PNG",
       opts: {
         setting: ["syol"],
-        group: ["protag", "antag"],
+        group: ["protag", "antag", "favs"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -1532,7 +1535,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["heav"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -1568,7 +1571,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -1595,7 +1598,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["cele"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -1629,8 +1632,8 @@ dataSet[dataSetVersion].options = [
       name: "Her",
       img: "Her.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["antag", "them"],
+        setting: ["there"],
+        group: ["antag"],
         notab: ["pop", "rp"]
       }
     },
@@ -1640,7 +1643,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["syol"],
         group: [],
-        notab: ["rp"]
+        notab: ["rp", "niche"]
       }
     },
     {
@@ -1649,7 +1652,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["asth"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -1658,7 +1661,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["hell"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -1685,7 +1688,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -1694,7 +1697,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -1712,7 +1715,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["psu"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -1721,7 +1724,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["hell"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -1738,7 +1741,7 @@ dataSet[dataSetVersion].options = [
       img: "Isadorus.PNG",
       opts: {
         setting: ["al2"],
-        group: ["antag"],
+        group: ["antag", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -1748,7 +1751,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["hell"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -1756,7 +1759,7 @@ dataSet[dataSetVersion].options = [
       img: "Ishtar.PNG",
       opts: {
         setting: ["side"],
-        group: ["antag"],
+        group: ["antag", "favs"],
         notab: []
       }
     },
@@ -1766,7 +1769,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["cele"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -1783,7 +1786,7 @@ dataSet[dataSetVersion].options = [
       img: "Istra.PNG",
       opts: {
         setting: ["hell", "misc"],
-        group: ["protag"],
+        group: ["protag", "favs"],
         notab: ["pop", "tourn", "th", "rp", "plot"]
       }
     },
@@ -1820,15 +1823,15 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["antag", "oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
       name: "Judge Truly",
       img: "Truly.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["them"],
+        setting: ["there"],
+        group: [],
         notab: ["rp"]
       }
     },
@@ -1838,7 +1841,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["psu"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -1873,7 +1876,7 @@ dataSet[dataSetVersion].options = [
       img: "Karina.PNG",
       opts: {
         setting: ["misc"],
-        group: [],
+        group: ["favs"],
         notab: ["th", "rp"]
       }
     },
@@ -1891,7 +1894,7 @@ dataSet[dataSetVersion].options = [
       img: "Keepy.PNG",
       opts: {
         setting: ["hell", "alt"],
-        group: ["meme"],
+        group: ["meme", "favs"],
         notab: ["rp"]
       }
     },
@@ -1900,7 +1903,7 @@ dataSet[dataSetVersion].options = [
       img: "Kenta.PNG",
       opts: {
         setting: ["hell"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -1909,7 +1912,7 @@ dataSet[dataSetVersion].options = [
       img: "Khazael.PNG",
       opts: {
         setting: ["asth"],
-        group: [],
+        group: ["favs"],
         notab: []
       }
     },
@@ -1926,9 +1929,9 @@ dataSet[dataSetVersion].options = [
       name: "Kilii",
       img: "Kilii.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["them"],
-        notab: ["pop"]
+        setting: ["there"],
+        group: [],
+        notab: ["old"]
       }
     },
     {
@@ -1937,7 +1940,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -1954,7 +1957,7 @@ dataSet[dataSetVersion].options = [
       img: "Koa.PNG",
       opts: {
         setting: ["psu"],
-        group: [],
+        group: ["favs"],
         notab: []
       }
     },
@@ -1990,7 +1993,7 @@ dataSet[dataSetVersion].options = [
       img: "Laejizhar.PNG",
       opts: {
         setting: ["misc"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -2008,7 +2011,7 @@ dataSet[dataSetVersion].options = [
       img: "Langelotte.png",
       opts: {
         setting: ["misc"],
-        group: [],
+        group: ["favs"],
         notab: ["th"]
       }
     },
@@ -2017,7 +2020,7 @@ dataSet[dataSetVersion].options = [
       img: "Langer.PNG",
       opts: {
         setting: ["lila", "asth"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "th", "rp"]
       }
     },
@@ -2027,7 +2030,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: ["rp"]
+        notab: ["rp", "niche"]
       }
     },
     {
@@ -2044,7 +2047,7 @@ dataSet[dataSetVersion].options = [
       img: "Larya.PNG",
       opts: {
         setting: ["misc"],
-        group: ["meme"],
+        group: ["meme", "favs"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -2054,7 +2057,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["heav", "alt"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -2080,8 +2083,17 @@ dataSet[dataSetVersion].options = [
       img: "LeFleuris.PNG",
       opts: {
         setting: ["syol"],
-        group: ["reps"],
+        group: ["reps", "favs"],
         notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Leiras/OG!Sariel",
+      img: "Leiras.PNG",
+      opts: {
+        setting: ["side"],
+        group: ["favs"],
+        notab: ["rp"]
       }
     },
     {
@@ -2089,7 +2101,7 @@ dataSet[dataSetVersion].options = [
       img: "Lenore.PNG",
       opts: {
         setting: ["psu"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "rp", "plot"]
       }
     },
@@ -2098,7 +2110,7 @@ dataSet[dataSetVersion].options = [
       img: "Leonis.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -2108,7 +2120,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -2117,7 +2129,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -2126,7 +2138,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: ["antag"],
-        notab: []
+        notab: ["old", "niche"]
       }
     },
     {
@@ -2134,7 +2146,7 @@ dataSet[dataSetVersion].options = [
       img: "Librae.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "rp", "plot"]
       }
     },
@@ -2144,7 +2156,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["asth"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -2152,7 +2164,7 @@ dataSet[dataSetVersion].options = [
       img: "LilStrawberry.PNG",
       opts: {
         setting: ["alt"],
-        group: ["meme"],
+        group: ["meme", "favs"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -2162,7 +2174,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: ["protag"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -2180,7 +2192,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["syol"],
         group: ["reps"],
-        notab: ["pop", "th"]
+        notab: ["th", "old"]
       }
     },
     {
@@ -2188,7 +2200,7 @@ dataSet[dataSetVersion].options = [
       img: "Lonia.PNG",
       opts: {
         setting: ["misc"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -2197,7 +2209,7 @@ dataSet[dataSetVersion].options = [
       img: "Ludovica.PNG",
       opts: {
         setting: ["hell"],
-        group: [],
+        group: ["favs"],
         notab: ["th", "rp"]
       }
     },
@@ -2206,7 +2218,7 @@ dataSet[dataSetVersion].options = [
       img: "Lun.PNG",
       opts: {
         setting: ["lila"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -2215,7 +2227,7 @@ dataSet[dataSetVersion].options = [
       img: "Lureus.PNG",
       opts: {
         setting: ["hell"],
-        group: ["ignis"],
+        group: ["ignis", "favs"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -2251,7 +2263,7 @@ dataSet[dataSetVersion].options = [
       img: "Majriti.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -2270,7 +2282,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["syol"],
         group: ["reps"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -2278,7 +2290,7 @@ dataSet[dataSetVersion].options = [
       img: "Marin.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -2295,17 +2307,17 @@ dataSet[dataSetVersion].options = [
       name: "Mate Tagi",
       img: "Mate.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["them"],
-        notab: []
+        setting: ["there"],
+        group: [],
+        notab: ["old"]
       }
     },
     {
       name: "Meil",
       img: "Meil.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["them"],
+        setting: ["there"],
+        group: [],
         notab: ["pop", "rp"]
       }
     },
@@ -2323,7 +2335,7 @@ dataSet[dataSetVersion].options = [
       img: "Memen.PNG",
       opts: {
         setting: ["syol"],
-        group: ["antag"],
+        group: ["antag", "favs"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -2332,7 +2344,7 @@ dataSet[dataSetVersion].options = [
       img: "Memera.PNG",
       opts: {
         setting: ["hell"],
-        group: ["meme"],
+        group: ["meme", "favs"],
         notab: ["rp"]
       }
     },
@@ -2351,7 +2363,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["asth"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -2359,7 +2371,7 @@ dataSet[dataSetVersion].options = [
       img: "Metatron.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "rp"]
       }
     },
@@ -2387,7 +2399,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: ["antag"]
+        notab: ["antag", "old"]
       }
     },
     {
@@ -2395,7 +2407,7 @@ dataSet[dataSetVersion].options = [
       img: "Millicent.PNG",
       opts: {
         setting: ["hell"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -2449,7 +2461,7 @@ dataSet[dataSetVersion].options = [
       img: "MrSharpe.PNG",
       opts: {
         setting: ["heav", "misc"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -2458,7 +2470,7 @@ dataSet[dataSetVersion].options = [
       img: "Mulapin.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -2466,8 +2478,8 @@ dataSet[dataSetVersion].options = [
       name: "Muri",
       img: "Muri.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["them"],
+        setting: ["there"],
+        group: ["favs"],
         notab: ["tourn", "th", "rp"]
       }
     },
@@ -2504,7 +2516,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: ["rp"]
+        notab: ["rp", "niche"]
       }
     },
     {
@@ -2513,7 +2525,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -2522,15 +2534,15 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["psu"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
       name: "Neren",
       img: "Neren.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["them"],
+        setting: ["there"],
+        group: ["oress", "favs"],
         notab: ["pop", "rp"]
       }
     },
@@ -2540,7 +2552,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["psu"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -2549,15 +2561,15 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["en2"],
         group: ["ignis"],
-        notab: ["rp", "plot"]
+        notab: ["pop", "rp", "plot"]
       }
     },
     {
       name: "Nette",
       img: "Nette.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["protag", "ignis"],
+        setting: ["there"],
+        group: ["protag", "ignis", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -2567,7 +2579,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["hell"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -2585,7 +2597,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: [],
-        notab: ["rp"]
+        notab: ["rp", "niche"]
       }
     },
     {
@@ -2593,7 +2605,7 @@ dataSet[dataSetVersion].options = [
       img: "Noblezza.PNG",
       opts: {
         setting: ["mds"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -2602,7 +2614,7 @@ dataSet[dataSetVersion].options = [
       img: "Nolan.PNG",
       opts: {
         setting: ["asth"],
-        group: ["protag"],
+        group: ["protag", "favs"],
         notab: ["th", "rp"]
       }
     },
@@ -2611,7 +2623,7 @@ dataSet[dataSetVersion].options = [
       img: "Nyctea.PNG",
       opts: {
         setting: ["heav"],
-        group: [],
+        group: ["favs"],
         notab: ["tourn", "th", "rp"]
       }
     },
@@ -2637,8 +2649,8 @@ dataSet[dataSetVersion].options = [
       name: "Ola Kata",
       img: "Ola.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["them"],
+        setting: ["there"],
+        group: [],
         notab: ["rp"]
       }
     },
@@ -2665,7 +2677,7 @@ dataSet[dataSetVersion].options = [
       img: "Ophiel.PNG",
       opts: {
         setting: ["rpg"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -2673,8 +2685,8 @@ dataSet[dataSetVersion].options = [
       name: "Opine Frazil",
       img: "Opine.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["antag", "them"],
+        setting: ["lila", "there"],
+        group: ["antag", "favs"],
         notab: ["pop", "tourn", "th", "rp", "plot"]
       }
     },
@@ -2692,7 +2704,7 @@ dataSet[dataSetVersion].options = [
       img: "Orchid.PNG",
       opts: {
         setting: ["en2"],
-        group: ["antag", "ignis", "dicro"],
+        group: ["antag", "ignis", "dicro", "favs"],
         notab: ["pop", "tourn", "th", "rp", "plot"]
       }
     },
@@ -2701,7 +2713,7 @@ dataSet[dataSetVersion].options = [
       img: "Orion.PNG",
       opts: {
         setting: ["side", "alt"],
-        group: ["antag"],
+        group: ["antag", "favs"],
         notab: ["pop", "rp"]
       }
     },
@@ -2710,7 +2722,7 @@ dataSet[dataSetVersion].options = [
       img: "Ostinato.PNG",
       opts: {
         setting: ["mds"],
-        group: ["antag"],
+        group: ["antag", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -2720,7 +2732,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["hell"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -2728,7 +2740,7 @@ dataSet[dataSetVersion].options = [
       img: "Ouray.PNG",
       opts: {
         setting: ["asth"],
-        group: ["dicro"],
+        group: ["dicro", "favs"],
         notab: ["tourn", "th", "rp"]
       }
     },
@@ -2738,7 +2750,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: ["meme"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -2773,7 +2785,7 @@ dataSet[dataSetVersion].options = [
       img: "Perseus.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "rp"]
       }
     },
@@ -2782,7 +2794,7 @@ dataSet[dataSetVersion].options = [
       img: "Phoebe.PNG",
       opts: {
         setting: ["hell"],
-        group: ["meme"],
+        group: ["meme", "favs"],
         notab: ["th"]
       }
     },
@@ -2800,7 +2812,7 @@ dataSet[dataSetVersion].options = [
       img: "Pierre.PNG",
       opts: {
         setting: ["lila"],
-        group: ["meme"],
+        group: ["meme", "favs"],
         notab: ["rp"]
       }
     },
@@ -2809,7 +2821,7 @@ dataSet[dataSetVersion].options = [
       img: "Piove.PNG",
       opts: {
         setting: ["hell"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -2827,7 +2839,7 @@ dataSet[dataSetVersion].options = [
       img: "Piscium.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "rp", "plot"]
       }
     },
@@ -2836,7 +2848,7 @@ dataSet[dataSetVersion].options = [
       img: "Pleris.PNG",
       opts: {
         setting: ["hell"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -2845,7 +2857,7 @@ dataSet[dataSetVersion].options = [
       img: "Poe.PNG",
       opts: {
         setting: ["hell"],
-        group: ["ignis"],
+        group: ["ignis", "favs"],
         notab: ["pop", "tourn", "th", "rp", "plot"]
       }
     },
@@ -2853,8 +2865,8 @@ dataSet[dataSetVersion].options = [
       name: "Poice",
       img: "Poice.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["oress", "them"],
+        setting: ["lila", "there"],
+        group: ["oress", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -2873,7 +2885,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["rpg"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -2881,7 +2893,7 @@ dataSet[dataSetVersion].options = [
       img: "Primula.PNG",
       opts: {
         setting: ["psu"],
-        group: [],
+        group: ["favs"],
         notab: []
       }
     },
@@ -2891,7 +2903,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["hell"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -2909,7 +2921,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["heav"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -2927,7 +2939,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: [],
-        notab: ["rp"]
+        notab: ["pop", "rp"]
       }
     },
     {
@@ -2936,7 +2948,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -2963,7 +2975,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila", "misc"],
         group: [],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -2989,7 +3001,7 @@ dataSet[dataSetVersion].options = [
       img: "Remaelius.PNG",
       opts: {
         setting: ["heav"],
-        group: [],
+        group: ["favs"],
         notab: ["th"]
       }
     },
@@ -2998,7 +3010,7 @@ dataSet[dataSetVersion].options = [
       img: "Rhiannon.PNG",
       opts: {
         setting: ["psu"],
-        group: ["protag"],
+        group: ["protag", "favs"],
         notab: []
       }
     },
@@ -3007,7 +3019,7 @@ dataSet[dataSetVersion].options = [
       img: "Rigel.PNG",
       opts: {
         setting: ["side"],
-        group: ["antag"],
+        group: ["antag", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -3016,7 +3028,7 @@ dataSet[dataSetVersion].options = [
       img: "Rize.PNG",
       opts: {
         setting: ["misc"],
-        group: [],
+        group: ["favs"],
         notab: ["th", "rp"]
       }
     },
@@ -3025,7 +3037,7 @@ dataSet[dataSetVersion].options = [
       img: "Rizelia.PNG",
       opts: {
         setting: ["mds"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -3043,7 +3055,7 @@ dataSet[dataSetVersion].options = [
       img: "Rubato.PNG",
       opts: {
         setting: ["mds"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -3052,7 +3064,7 @@ dataSet[dataSetVersion].options = [
       img: "Ruby.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: []
       }
     },
@@ -3062,7 +3074,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -3070,7 +3082,7 @@ dataSet[dataSetVersion].options = [
       img: "Sagittaria.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "rp"]
       }
     },
@@ -3097,7 +3109,7 @@ dataSet[dataSetVersion].options = [
       img: "Sandalphon.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "rp", "plot"]
       }
     },
@@ -3116,7 +3128,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["psu"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -3125,7 +3137,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["heav"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -3133,7 +3145,7 @@ dataSet[dataSetVersion].options = [
       img: "Scorpius.PNG",
       opts: {
         setting: ["side"],
-        group: ["protag", "sidep"],
+        group: ["protag", "sidep", "favs"],
         notab: ["pop", "tourn", "rp", "plot"]
       }
     },
@@ -3143,7 +3155,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["asth"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "old"]
       }
     },
     {
@@ -3161,7 +3173,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -3169,16 +3181,16 @@ dataSet[dataSetVersion].options = [
       img: "Septicemia.PNG",
       opts: {
         setting: ["syol"],
-        group: ["reps"],
-        notab: ["pop", "th"]
+        group: ["reps", "favs"],
+        notab: ["th"]
       }
     },
     {
       name: "Seraye Phaelin",
       img: "Seraye.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["them"],
+        setting: ["lila", "there"],
+        group: ["favs"],
         notab: ["pop", "th", "rp"]
       }
     },
@@ -3187,7 +3199,7 @@ dataSet[dataSetVersion].options = [
       img: "Serpentarius.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "rp"]
       }
     },
@@ -3214,7 +3226,7 @@ dataSet[dataSetVersion].options = [
       img: "Sitar.PNG",
       opts: {
         setting: ["al2"],
-        group: [],
+        group: ["favs"],
         notab: []
       }
     },
@@ -3223,7 +3235,7 @@ dataSet[dataSetVersion].options = [
       img: "Soleil.PNG",
       opts: {
         setting: ["lila"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "th", "rp"]
       }
     },
@@ -3231,8 +3243,8 @@ dataSet[dataSetVersion].options = [
       name: "Sophisticated Tombstone",
       img: "Sophisticated Tombstone.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["meme", "them"],
+        setting: ["there"],
+        group: ["meme"],
         notab: ["rp"]
       }
     },
@@ -3240,8 +3252,8 @@ dataSet[dataSetVersion].options = [
       name: "Spades",
       img: "Spades.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["protag", "them", "dicro"],
+        setting: ["there"],
+        group: ["protag", "dicro", "favs"],
         notab: ["pop", "tourn", "rp", "plot"]
       }
     },
@@ -3250,7 +3262,7 @@ dataSet[dataSetVersion].options = [
       img: "Spes.PNG",
       opts: {
         setting: ["side"],
-        group: ["meme"],
+        group: ["meme", "favs"],
         notab: ["pop", "tourn", "rp", "plot"]
       }
     },
@@ -3258,8 +3270,8 @@ dataSet[dataSetVersion].options = [
       name: "SPRINKLES",
       img: "SPRINKLES.png",
       opts: {
-        setting: ["lila"],
-        group: ["meme", "them"],
+        setting: ["there"],
+        group: ["meme", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -3267,8 +3279,8 @@ dataSet[dataSetVersion].options = [
       name: "Stan",
       img: "Stan.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["them"],
+        setting: ["there"],
+        group: ["favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -3278,7 +3290,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: ["protag"],
-        notab: ["th", "rp"]
+        notab: ["th", "rp", "niche"]
       }
     },
     {
@@ -3287,7 +3299,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -3304,7 +3316,7 @@ dataSet[dataSetVersion].options = [
       img: "Tauri.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "rp"]
       }
     },
@@ -3313,7 +3325,7 @@ dataSet[dataSetVersion].options = [
       img: "Theocritus.PNG",
       opts: {
         setting: ["misc"],
-        group: ["protag"],
+        group: ["protag", "favs"],
         notab: ["th", "rp"]
       }
     },
@@ -3322,7 +3334,7 @@ dataSet[dataSetVersion].options = [
       img: "Thyx.PNG",
       opts: {
         setting: ["lila"],
-        group: ["meme", "oress"],
+        group: ["meme", "oress", "favs"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -3332,7 +3344,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["asth"],
         group: ["protag"],
-        notab: ["th"]
+        notab: ["th", "old"]
       }
     },
     {
@@ -3367,7 +3379,7 @@ dataSet[dataSetVersion].options = [
       img: "Trepein.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -3376,7 +3388,7 @@ dataSet[dataSetVersion].options = [
       img: "Trigger.PNG",
       opts: {
         setting: ["syol", "misc"],
-        group: ["antag"],
+        group: ["antag", "favs"],
         notab: ["pop", "tourn", "rp", "plot"]
       }
     },
@@ -3385,7 +3397,7 @@ dataSet[dataSetVersion].options = [
       img: "Tsubame.PNG",
       opts: {
         setting: ["heav"],
-        group: [],
+        group: ["favs"],
         notab: ["th", "rp"]
       }
     },
@@ -3395,7 +3407,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["heav"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -3412,7 +3424,7 @@ dataSet[dataSetVersion].options = [
       img: "Umbra.PNG",
       opts: {
         setting: ["lila"],
-        group: ["protag", "antag"],
+        group: ["protag", "antag", "favs"],
         notab: ["pop", "tourn", "th", "rp", "plot"]
       }
     },
@@ -3448,7 +3460,7 @@ dataSet[dataSetVersion].options = [
       img: "Valeria.PNG",
       opts: {
         setting: ["psu"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -3458,7 +3470,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["heav"],
         group: [],
-        notab: ["th"]
+        notab: ["th", "niche"]
       }
     },
     {
@@ -3475,7 +3487,7 @@ dataSet[dataSetVersion].options = [
       img: "Venith.PNG",
       opts: {
         setting: ["syol"],
-        group: ["reps"],
+        group: ["reps", "favs"],
         notab: ["pop", "th", "rp"]
       }
     },
@@ -3493,7 +3505,7 @@ dataSet[dataSetVersion].options = [
       img: "Verity.PNG",
       opts: {
         setting: ["lila"],
-        group: ["antag"],
+        group: ["antag", "favs"],
         notab: ["pop"]
       }
     },
@@ -3511,8 +3523,8 @@ dataSet[dataSetVersion].options = [
       img: "Vesuvael.PNG",
       opts: {
         setting: ["asth"],
-        group: [],
-        notab: []
+        group: ["favs"],
+        notab: ["niche"]
       }
     },
     {
@@ -3520,7 +3532,7 @@ dataSet[dataSetVersion].options = [
       img: "Via.PNG",
       opts: {
         setting: ["mds"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -3529,7 +3541,7 @@ dataSet[dataSetVersion].options = [
       img: "Virginis.PNG",
       opts: {
         setting: ["side"],
-        group: ["sidep"],
+        group: ["sidep", "favs"],
         notab: ["pop", "rp"]
       }
     },
@@ -3537,9 +3549,9 @@ dataSet[dataSetVersion].options = [
       name: "Vitara",
       img: "Vitara.PNG",
       opts: {
-        setting: ["lila"],
-        group: ["oress", "them"],
-        notab: ["pop"]
+        setting: ["lila", "there"],
+        group: ["oress"],
+        notab: ["old"]
       }
     },
     {
@@ -3547,7 +3559,7 @@ dataSet[dataSetVersion].options = [
       img: "Vitrail.PNG",
       opts: {
         setting: ["rpg"],
-        group: ["protag"],
+        group: ["protag", "favs"],
         notab: ["pop", "tourn", "rp"]
       }
     },
@@ -3556,7 +3568,7 @@ dataSet[dataSetVersion].options = [
       img: "Vivace.PNG",
       opts: {
         setting: ["mds"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -3565,7 +3577,7 @@ dataSet[dataSetVersion].options = [
       img: "Vivienne.PNG",
       opts: {
         setting: ["rpg"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
@@ -3575,7 +3587,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -3584,7 +3596,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -3593,7 +3605,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: [],
-        notab: ["th", "rp"]
+        notab: ["th", "rp", "niche"]
       }
     },
     {
@@ -3602,7 +3614,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["lila"],
         group: ["oress"],
-        notab: []
+        notab: ["old"]
       }
     },
     {
@@ -3611,7 +3623,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["asth"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -3619,7 +3631,7 @@ dataSet[dataSetVersion].options = [
       img: "Yenzhal.PNG",
       opts: {
         setting: ["hell"],
-        group: [],
+        group: ["favs"],
         notab: ["th", "rp"]
       }
     },
@@ -3628,7 +3640,7 @@ dataSet[dataSetVersion].options = [
       img: "Yeonghui.PNG",
       opts: {
         setting: ["psu"],
-        group: [],
+        group: ["favs"],
         notab: []
       }
     },
@@ -3638,7 +3650,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["asth"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -3647,7 +3659,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["hell"],
         group: [],
-        notab: ["th", "rp"]
+        notab: ["th", "rp", "niche"]
       }
     },
     {
@@ -3655,7 +3667,7 @@ dataSet[dataSetVersion].options = [
       img: "Zadkiel.PNG",
       opts: {
         setting: ["side"],
-        group: [],
+        group: ["favs"],
         notab: []
       }
     },
@@ -3682,7 +3694,7 @@ dataSet[dataSetVersion].options = [
       img: "Zhirael.PNG",
       opts: {
         setting: ["asth"],
-        group: [],
+        group: ["favs"],
         notab: ["pop", "th", "rp"]
       }
     },
@@ -3691,7 +3703,7 @@ dataSet[dataSetVersion].options = [
       img: "Zoe.PNG",
       opts: {
         setting: ["psu"],
-        group: [],
+        group: ["favs"],
         notab: ["rp"]
       }
     },
