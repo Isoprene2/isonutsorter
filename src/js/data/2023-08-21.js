@@ -169,7 +169,7 @@ dataSet[dataSetVersion].options = [
     },
     {
       name: "Agnes Marguerite",
-      img: "Agnes.PNG",
+      img: "Agnes.png",
       opts: {
         setting: ["misc"],
         group: [],
@@ -191,7 +191,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["vn"],
         group: [],
-        notab: ["rp"]
+        notab: ["th", "rp"]
       }
     },
     {
@@ -218,7 +218,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["alt"],
         group: ["protag"],
-        notab: ["rp"]
+        notab: ["pop", "rp"]
       }
     },
     {
@@ -272,7 +272,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: ["pop", "tourn", "rp", "plot"]
+        notab: ["pop", "tourn", "rp"]
       }
     },
     {
@@ -281,7 +281,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["vn"],
         group: [],
-        notab: ["rp"]
+        notab: ["th", "rp"]
       }
     },
     {
@@ -362,7 +362,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: [],
-        notab: ["rp"]
+        notab: ["pop", "rp"]
       }
     },
     {
@@ -403,7 +403,7 @@ dataSet[dataSetVersion].options = [
     },
     {
       name: "Artemis",
-      img: "Artemis.PNG",
+      img: "Artemis.png",
       opts: {
         setting: ["side"],
         group: [],
@@ -479,7 +479,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["rpg"],
         group: [],
-        notab: ["rp"]
+        notab: ["th", "rp"]
       }
     },
     {
@@ -506,7 +506,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: [],
-        notab: ["rp"]
+        notab: ["th", "rp"]
       }
     },
     {
@@ -514,13 +514,13 @@ dataSet[dataSetVersion].options = [
       img: "Belinda.PNG",
       opts: {
         setting: ["psu"],
-        group: ["antag"],
+        group: [],
         notab: []
       }
     },
     {
       name: "Big Kani",
-      img: "BigKani.PNG",
+      img: "BigKani.png",
       opts: {
         setting: ["side"],
         group: ["meme"],
@@ -550,7 +550,7 @@ dataSet[dataSetVersion].options = [
       img: "Bonnie.PNG",
       opts: {
         setting: ["asth"],
-        group: ["protag", "meme"],
+        group: ["meme"],
         notab: ["pop", "tourn", "th", "rp"]
       }
     },
@@ -1222,7 +1222,7 @@ dataSet[dataSetVersion].options = [
     },
     {
       name: "Ernest Clarence",
-      img: "Ernest.PNG",
+      img: "Ernest.png",
       opts: {
         setting: ["misc"],
         group: [],
@@ -1231,7 +1231,7 @@ dataSet[dataSetVersion].options = [
     },
     {
       name: "Eros",
-      img: "Eros.PNG",
+      img: "Eros.png",
       opts: {
         setting: ["side"],
         group: [],
@@ -1357,7 +1357,7 @@ dataSet[dataSetVersion].options = [
     },
     {
       name: "Floor Slut/Flory",
-      img: "FloorSlut.PNG",
+      img: "FloorSlut.png",
       opts: {
         setting: ["misc"],
         group: ["antag", "meme"],
@@ -1369,7 +1369,7 @@ dataSet[dataSetVersion].options = [
       img: "Flyri.PNG",
       opts: {
         setting: ["lila"],
-        group: ["oress"],
+        group: ["oress", "them"],
         notab: []
       }
     },
@@ -1824,6 +1824,15 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
+      name: "Judge Truly",
+      img: "Truly.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["them"],
+        notab: ["rp"]
+      }
+    },
+    {
       name: "Juniper Russell",
       img: "Juniper.PNG",
       opts: {
@@ -1881,9 +1890,207 @@ dataSet[dataSetVersion].options = [
       name: "The Keeper of the Forbidden Knowledge of Victorius III",
       img: "Keepy.PNG",
       opts: {
-        setting: ["hell", "al2"],
+        setting: ["hell", "alt"],
         group: ["meme"],
         notab: ["rp"]
+      }
+    },
+    {
+      name: "Kenta Gluttire",
+      img: "Kenta.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Khazael",
+      img: "Khazael.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Ki",
+      img: "Ki.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["protag"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Kilii",
+      img: "Kilii.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["them"],
+        notab: ["pop"]
+      }
+    },
+    {
+      name: "Kinet",
+      img: "Kinet.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Kleigh",
+      img: "Kleigh.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Koa Kealoha",
+      img: "Koa.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Kyona",
+      img: "Kyona.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Lacie Chou",
+      img: "Lacie.PNG",
+      opts: {
+        setting: ["psu"],
+        group: ["antag"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Lacio Fontana",
+      img: "Lacio.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Laejizhar Adarez",
+      img: "Laejizhar.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Laguaro",
+      img: "Laguaro.PNG",
+      opts: {
+        setting: ["mds"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Langelotte Haemondias",
+      img: "Langelotte.png",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Langer Raton/Chillybro",
+      img: "Langer.PNG",
+      opts: {
+        setting: ["lila", "asth"],
+        group: [],
+        notab: ["pop", "th", "rp"]
+      }
+    },
+    {
+      name: "Laphystia",
+      img: "Laphystia.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "LaPlata Costina",
+      img: "LaPlata.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Larya Tayl",
+      img: "Larya.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["meme"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Lattea",
+      img: "Lattea.PNG",
+      opts: {
+        setting: ["heav", "alt"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Lausac Pardes",
+      img: "Lausac.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["reps"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Lazulum",
+      img: "Lazulum.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "LeFleuris de Floraize",
+      img: "LeFleuris.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["reps"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Lenore Blackwood",
+      img: "Lenore.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: ["pop", "rp", "plot"]
       }
     },
     {
@@ -1892,7 +2099,34 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: ["sidep"],
-        notab: ["tourn", "rp"]
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Lesni",
+      img: "Lesni.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Leviathan",
+      img: "Leviathan.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Li Sao",
+      img: "LiSao.png",
+      opts: {
+        setting: ["misc"],
+        group: ["antag"],
+        notab: []
       }
     },
     {
@@ -1901,7 +2135,691 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: ["sidep"],
+        notab: ["pop", "rp", "plot"]
+      }
+    },
+    {
+      name: "Lielvevasse Aureole",
+      img: "Liel.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Lil Strawberry",
+      img: "LilStrawberry.PNG",
+      opts: {
+        setting: ["alt"],
+        group: ["meme"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Lilita Vilveise",
+      img: "Lilita.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["protag"],
+        notab: []
+      }
+    },
+    {
+      name: "Lirna",
+      img: "Lirna.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Loligo Anuwau",
+      img: "Loligo.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["reps"],
+        notab: ["pop", "th"]
+      }
+    },
+    {
+      name: "Lonia Arral",
+      img: "Lonia.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Ludovica Violante",
+      img: "Ludovica.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Lun",
+      img: "Lun.PNG",
+      opts: {
+        setting: ["lila"],
+        group: [],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Lureus Ailswen",
+      img: "Lureus.PNG",
+      opts: {
+        setting: ["hell"],
+        group: ["ignis"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Lycianthes",
+      img: "Lycianthes.PNG",
+      opts: {
+        setting: ["side"],
+        group: ["ignis"],
+        notab: ["tourn", "rp"]
+      }
+    },
+    {
+      name: "Lysis Persenche",
+      img: "Lysis.PNG",
+      opts: {
+        setting: ["cele"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Maiex",
+      img: "Maiex.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Majriti",
+      img: "Majriti.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Mango",
+      img: "Mango.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["meme"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Mariellu",
+      img: "Mariellu.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["reps"],
+        notab: []
+      }
+    },
+    {
+      name: "Marin",
+      img: "Marin.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Mariol",
+      img: "Mariol.PNG",
+      opts: {
+        setting: ["lila"],
+        group: [],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Mate Tagi",
+      img: "Mate.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["them"],
+        notab: []
+      }
+    },
+    {
+      name: "Meil",
+      img: "Meil.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["them"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Melibella Mirifica",
+      img: "Melibella.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Memen",
+      img: "Memen.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["antag"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Memera",
+      img: "Memera.PNG",
+      opts: {
+        setting: ["hell"],
+        group: ["meme"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Merah Muda",
+      img: "Merah.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["reps"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Meredith Ulydine",
+      img: "Meredith.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Metatron",
+      img: "Metatron.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Methysta",
+      img: "Methysta.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Michael",
+      img: "Michael.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Mikimi",
+      img: "Mikimi.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: ["antag"]
+      }
+    },
+    {
+      name: "Millicent Malaise",
+      img: "Millicent.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Mirach",
+      img: "Mirach.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Mollweide Robinson",
+      img: "Mollweide.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Monacha Passerine",
+      img: "Monacha.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Monaz",
+      img: "Monaz.PNG",
+      opts: {
+        setting: ["syol"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Mr. Fish",
+      img: "MrFish.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["meme"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Mr. Sharpe",
+      img: "MrSharpe.PNG",
+      opts: {
+        setting: ["heav", "misc"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Mulapin",
+      img: "Mulapin.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Muri",
+      img: "Muri.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["them"],
+        notab: ["tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Mycena Chlorophos",
+      img: "Mycena.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Nashira",
+      img: "Nashira.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Neladi",
+      img: "Neladi.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Nembus",
+      img: "Nembus.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Nemea",
+      img: "Nemea.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Nephele Adesso",
+      img: "Nephele.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Neren",
+      img: "Neren.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["them"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Nerissa Vance",
+      img: "Nerissa.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Ne2e",
+      img: "Ne2e.PNG",
+      opts: {
+        setting: ["en2"],
+        group: ["ignis"],
         notab: ["rp", "plot"]
+      }
+    },
+    {
+      name: "Nette",
+      img: "Nette.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["protag", "ignis"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Nevica",
+      img: "Nevica.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Nezthael",
+      img: "Nezthael.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Nika Elaxi",
+      img: "Nika.PNG",
+      opts: {
+        setting: ["lila"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Noblezza Cabaletta",
+      img: "Noblezza.PNG",
+      opts: {
+        setting: ["mds"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Nolan Feoluce",
+      img: "Nolan.PNG",
+      opts: {
+        setting: ["asth"],
+        group: ["protag"],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Nyctea Scandiacus",
+      img: "Nyctea.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Ochotnik",
+      img: "Ochotnik.PNG",
+      opts: {
+        setting: ["cele"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Odette Mirifica",
+      img: "Odette.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Ola Kata",
+      img: "Ola.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["them"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Onlarue",
+      img: "Onlarue.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: ["rp", "plot"]
+      }
+    },
+    {
+      name: "Onyx",
+      img: "Onyx.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Ophiel Riend",
+      img: "Ophiel.PNG",
+      opts: {
+        setting: ["rpg"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Opine Frazil",
+      img: "Opine.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["antag", "them"],
+        notab: ["pop", "tourn", "th", "rp", "plot"]
+      }
+    },
+    {
+      name: "Orange",
+      img: "Orange.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["protag"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Orchid",
+      img: "Orchid.PNG",
+      opts: {
+        setting: ["en2"],
+        group: ["antag", "ignis", "dicro"],
+        notab: ["pop", "tourn", "th", "rp", "plot"]
+      }
+    },
+    {
+      name: "Orion",
+      img: "Orion.PNG",
+      opts: {
+        setting: ["side", "alt"],
+        group: ["antag"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Ostinato Marziale",
+      img: "Ostinato.PNG",
+      opts: {
+        setting: ["mds"],
+        group: ["antag"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Ouranos",
+      img: "Ouranos.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Ouray Nerau",
+      img: "Ouray.PNG",
+      opts: {
+        setting: ["asth"],
+        group: ["dicro"],
+        notab: ["tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Patricia",
+      img: "Patricia.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["meme"],
+        notab: []
+      }
+    },
+    {
+      name: "Peridot",
+      img: "Peridot.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Perihelion",
+      img: "Perihelion.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Perita Lachesis",
+      img: "Perita.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["dicro"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Perseus",
+      img: "Perseus.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Phoebe",
+      img: "Phoebe.PNG",
+      opts: {
+        setting: ["hell"],
+        group: ["meme"],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Pienna Soave",
+      img: "Pienna.PNG",
+      opts: {
+        setting: ["mds"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Pierre Ciar",
+      img: "Pierre.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["meme"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Piove Fontana",
+      img: "Piove.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Piragua Melancia",
+      img: "Pira.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th"]
       }
     },
     {
@@ -1914,12 +2832,300 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
+      name: "Pleris",
+      img: "Pleris.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Poe Blackwood",
+      img: "Poe.PNG",
+      opts: {
+        setting: ["hell"],
+        group: ["ignis"],
+        notab: ["pop", "tourn", "th", "rp", "plot"]
+      }
+    },
+    {
+      name: "Poice",
+      img: "Poice.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress", "them"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Porphyra Sigal",
+      img: "Porphyra.png",
+      opts: {
+        setting: ["misc"],
+        group: ["antag"],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Praecipula Meissa",
+      img: "Praecipula.PNG",
+      opts: {
+        setting: ["rpg"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Primula Blumenthal",
+      img: "Primula.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Prince",
+      img: "Prince.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Priste",
+      img: "Priste.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Psitta Cifora",
+      img: "Psitta.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Puervus Mirifica",
+      img: "Puervus.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Qamar",
+      img: "Qamar.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Quasea",
+      img: "Quasea.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Quenael",
+      img: "Quenael.PNG",
+      opts: {
+        setting: ["asth"],
+        group: ["antag"],
+        notab: []
+      }
+    },
+    {
+      name: "Raguel",
+      img: "Raguel.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Raine",
+      img: "Raine.PNG",
+      opts: {
+        setting: ["lila", "misc"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Raphael",
+      img: "Raphael.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Raziel",
+      img: "Raziel.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Remaelius Opal",
+      img: "Remaelius.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Rhiannon Blanchard",
+      img: "Rhiannon.PNG",
+      opts: {
+        setting: ["psu"],
+        group: ["protag"],
+        notab: []
+      }
+    },
+    {
+      name: "Rigel",
+      img: "Rigel.PNG",
+      opts: {
+        setting: ["side"],
+        group: ["antag"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Rize",
+      img: "Rize.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Rizelia Lancoste",
+      img: "Rizelia.PNG",
+      opts: {
+        setting: ["mds"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Rochelle Gabbrostea",
+      img: "Rochelle.PNG",
+      opts: {
+        setting: ["rpg", "hell"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Rubato Veloce",
+      img: "Rubato.PNG",
+      opts: {
+        setting: ["mds"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Ruby",
+      img: "Ruby.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Saffar",
+      img: "Saffar.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
       name: "Sagittaria",
       img: "Sagittaria.PNG",
       opts: {
         setting: ["side"],
         group: ["sidep"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Salsalat",
+      img: "Salsalat.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
         notab: ["rp"]
+      }
+    },
+    {
+      name: "Samh",
+      img: "Samh.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Sandalphon",
+      img: "Sandalphon.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["pop", "rp", "plot"]
+      }
+    },
+    {
+      name: "Sapphica",
+      img: "Sapphica.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Sapphire Smith",
+      img: "Sapphire.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Sarende Celaenis",
+      img: "Sarende.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th"]
       }
     },
     {
@@ -1932,12 +3138,111 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
+      name: "Seems Wright",
+      img: "Seems.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Seiten",
+      img: "Seiten.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["meme"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Semil Lunaled",
+      img: "Semil.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Septicemia",
+      img: "Septicemia.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["reps"],
+        notab: ["pop", "th"]
+      }
+    },
+    {
+      name: "Seraye Phaelin",
+      img: "Seraye.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["them"],
+        notab: ["pop", "th", "rp"]
+      }
+    },
+    {
       name: "Serpentarius",
       img: "Serpentarius.PNG",
       opts: {
         setting: ["side"],
         group: ["sidep"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Shan",
+      img: "Shan.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["antag", "oress"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Sinhal Chatoyant",
+      img: "Sinhal.PNG",
+      opts: {
+        setting: ["vn"],
+        group: [],
         notab: ["rp"]
+      }
+    },
+    {
+      name: "Sitar",
+      img: "Sitar.PNG",
+      opts: {
+        setting: ["al2"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Soleil",
+      img: "Soleil.PNG",
+      opts: {
+        setting: ["lila"],
+        group: [],
+        notab: ["pop", "th", "rp"]
+      }
+    },
+    {
+      name: "Sophisticated Tombstone",
+      img: "Sophisticated Tombstone.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["meme", "them"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Spades",
+      img: "Spades.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["protag", "them", "dicro"],
+        notab: ["pop", "tourn", "rp", "plot"]
       }
     },
     {
@@ -1950,11 +3255,272 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
+      name: "SPRINKLES",
+      img: "SPRINKLES.png",
+      opts: {
+        setting: ["lila"],
+        group: ["meme", "them"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Stan",
+      img: "Stan.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["them"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Stefan Faran",
+      img: "Stefan.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["protag"],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Sytel",
+      img: "Sytel.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Tagetes/The Haruspex",
+      img: "Tagetes.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
       name: "Tauri",
       img: "Tauri.PNG",
       opts: {
         setting: ["side"],
         group: ["sidep"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Theocritus",
+      img: "Theocritus.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["protag"],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Thyx",
+      img: "Thyx.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["meme", "oress"],
+        notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Tigel Smith",
+      img: "Tigel.PNG",
+      opts: {
+        setting: ["asth"],
+        group: ["protag"],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Tintra Nekiri",
+      img: "Tintra.PNG",
+      opts: {
+        setting: ["lila"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Tomomi Fukuda",
+      img: "Tomomi.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Topaz",
+      img: "Topaz.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Trepein",
+      img: "Trepein.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Trigger",
+      img: "Trigger.PNG",
+      opts: {
+        setting: ["syol", "misc"],
+        group: ["antag"],
+        notab: ["pop", "tourn", "rp", "plot"]
+      }
+    },
+    {
+      name: "Tsubame Ueno",
+      img: "Tsubame.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Tulippa",
+      img: "Tulippa.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Tzila",
+      img: "Tzila.PNG",
+      opts: {
+        setting: ["lila", "misc"],
+        group: ["antag"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Umbra Tear",
+      img: "Umbra.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["protag", "antag"],
+        notab: ["pop", "tourn", "th", "rp", "plot"]
+      }
+    },
+    {
+      name: "Unzeh",
+      img: "Unzeh.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["antag", "oress"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Uriel",
+      img: "Uriel.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Valence Polix",
+      img: "Valence.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["reps"],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Valeria Ibarra",
+      img: "Valeria.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Vanadin Brighella",
+      img: "Vanadin.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Velutia Aurore",
+      img: "Velutia.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Venith Tobette",
+      img: "Venith.PNG",
+      opts: {
+        setting: ["syol"],
+        group: ["reps"],
+        notab: ["pop", "th", "rp"]
+      }
+    },
+    {
+      name: "Veritate",
+      img: "Veritate.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Verity",
+      img: "Verity.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["antag"],
+        notab: ["pop"]
+      }
+    },
+    {
+      name: "Vermelhar",
+      img: "Vermelhar.png",
+      opts: {
+        setting: ["cele"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Vesuvael",
+      img: "Vesuvael.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Via Solenne",
+      img: "Via.PNG",
+      opts: {
+        setting: ["mds"],
+        group: [],
         notab: ["rp"]
       }
     },
@@ -1964,7 +3530,178 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: ["sidep"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
+      name: "Vitara",
+      img: "Viatara.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress", "them"],
+        notab: ["pop"]
+      }
+    },
+    {
+      name: "Vitrail Alkester",
+      img: "Vitrail.PNG",
+      opts: {
+        setting: ["rpg"],
+        group: ["protag"],
+        notab: ["pop", "tourn", "rp"]
+      }
+    },
+    {
+      name: "Vivace Legato",
+      img: "Vivace.PNG",
+      opts: {
+        setting: ["mds"],
+        group: [],
         notab: ["rp"]
       }
-    }
+    },
+    {
+      name: "Vivienne Alkester",
+      img: "Vivienne.PNG",
+      opts: {
+        setting: ["rpg"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Vixis",
+      img: "Vixis.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Vizelia Viviendela",
+      img: "Vizelia.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Waleria Blithe",
+      img: "Waleria.PNG",
+      opts: {
+        setting: ["misc"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Wistel",
+      img: "Wistel.PNG",
+      opts: {
+        setting: ["lila"],
+        group: ["oress"],
+        notab: []
+      }
+    },
+    {
+      name: "Xinphael",
+      img: "Xinphael.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Yenzhal",
+      img: "Yenzhal.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Yeonghui Song",
+      img: "Yeonghui.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Yurael",
+      img: "Yurael.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Yuudai",
+      img: "Yuudai.PNG",
+      opts: {
+        setting: ["hell"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
+    {
+      name: "Zadkiel",
+      img: "Zadkiel.PNG",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: []
+      }
+    },
+    {
+      name: "Zaniah Lesath",
+      img: "Zaniah.PNG",
+      opts: {
+        setting: ["rpg"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Zephanie Sucrose",
+      img: "Zephanie.PNG",
+      opts: {
+        setting: ["hell", "heav"],
+        group: [],
+        notab: ["th"]
+      }
+    },
+    {
+      name: "Zhirael",
+      img: "Zhirael.PNG",
+      opts: {
+        setting: ["asth"],
+        group: [],
+        notab: ["pop", "th", "rp"]
+      }
+    },
+    {
+      name: "Zoe Stone",
+      img: "Zoe.PNG",
+      opts: {
+        setting: ["psu"],
+        group: [],
+        notab: ["rp"]
+      }
+    },
+    {
+      name: "Zosime Versephon",
+      img: "Zosime.PNG",
+      opts: {
+        setting: ["cele"],
+        group: [],
+        notab: ["th", "rp"]
+      }
+    },
   ]
