@@ -1,4 +1,4 @@
-dataSetVersion = "2023-09-05"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2023-09-09"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -52,7 +52,7 @@ dataSet[dataSetVersion].options = [
       sub: [
         { name: "Popular OCs", key: "pop" },
         { name: "Was in the Isonut Tournament", key: "tourn" },
-        { name: "Has a Toyhouse profile", key: "th" },
+        { name: "Is on Toyhouse", key: "th" },
         { name: "Has been RPed with on Interrobang", key: "rp" },
         { name: "Has been RPed with, but not in years", key: "old" },
         { name: "Relevant to the En2rety plot", key: "plot" },
@@ -810,7 +810,7 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
-      name: "Chalcedony",
+      name: "Chalcedony Lepidolite",
       img: "Chalcedony.PNG",
       opts: {
         setting: ["vn"],
@@ -1054,7 +1054,7 @@ dataSet[dataSetVersion].options = [
     },
     {
       name: "Diaemus Desmodus",
-      img: "Diaemus.PNG",
+      img: "Diaenus.PNG",
       opts: {
         setting: ["misc"],
         group: [],
@@ -1408,7 +1408,7 @@ dataSet[dataSetVersion].options = [
       img: "Fyel.PNG",
       opts: {
         setting: ["lila"],
-        group: ["oress", "favs"],
+        group: ["oress"],
         notab: ["old"]
       }
     },
@@ -1876,7 +1876,7 @@ dataSet[dataSetVersion].options = [
       img: "Karina.PNG",
       opts: {
         setting: ["misc"],
-        group: ["favs"],
+        group: [],
         notab: ["th", "rp"]
       }
     },
@@ -2209,7 +2209,7 @@ dataSet[dataSetVersion].options = [
       img: "Ludovica.PNG",
       opts: {
         setting: ["hell"],
-        group: ["favs"],
+        group: [],
         notab: ["th", "rp"]
       }
     },
@@ -2263,7 +2263,7 @@ dataSet[dataSetVersion].options = [
       img: "Majriti.PNG",
       opts: {
         setting: ["side"],
-        group: ["favs"],
+        group: [],
         notab: ["rp"]
       }
     },
@@ -2407,7 +2407,7 @@ dataSet[dataSetVersion].options = [
       img: "Millicent.PNG",
       opts: {
         setting: ["hell"],
-        group: ["favs"],
+        group: [],
         notab: ["rp"]
       }
     },
@@ -2821,7 +2821,7 @@ dataSet[dataSetVersion].options = [
       img: "Piove.PNG",
       opts: {
         setting: ["hell"],
-        group: ["favs"],
+        group: [],
         notab: ["rp"]
       }
     },
@@ -2893,7 +2893,7 @@ dataSet[dataSetVersion].options = [
       img: "Primula.PNG",
       opts: {
         setting: ["psu"],
-        group: ["favs"],
+        group: [],
         notab: []
       }
     },
@@ -3028,7 +3028,7 @@ dataSet[dataSetVersion].options = [
       img: "Rize.PNG",
       opts: {
         setting: ["misc"],
-        group: ["favs"],
+        group: [],
         notab: ["th", "rp"]
       }
     },
@@ -3640,7 +3640,7 @@ dataSet[dataSetVersion].options = [
       img: "Yeonghui.PNG",
       opts: {
         setting: ["psu"],
-        group: ["favs"],
+        group: [],
         notab: []
       }
     },
