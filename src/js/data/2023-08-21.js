@@ -56,6 +56,7 @@ dataSet[dataSetVersion].options = [
         { name: "Has been RPed with on Interrobang", key: "rp" },
         { name: "Has been RPed with, but not in years", key: "old" },
         { name: "Relevant to the En2rety plot", key: "plot" },
+        { name: "DND-adjacent", key: "dnd" },
         { name: "Obscure OCs", key: "niche" }
       ]
     }
@@ -95,7 +96,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["psu"],
         group: [],
-        notab: []
+        notab: ["niche"]
       }
     },
     {
@@ -481,7 +482,7 @@ dataSet[dataSetVersion].options = [
       img: "Azrael.PNG",
       opts: {
         setting: ["side"],
-        group: ["favs"],
+        group: [],
         notab: []
       }
     },
@@ -522,6 +523,15 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
+      name: "Big Rat",
+      img: "Big Rat.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["meme"],
+        notab: ["pop", "dnd"]
+      }
+    },
+    {
       name: "Blair Yamamoto",
       img: "Blair.PNG",
       opts: {
@@ -555,6 +565,15 @@ dataSet[dataSetVersion].options = [
         setting: ["misc"],
         group: ["meme", "ignis"],
         notab: ["pop", "tourn", "th", "rp"]
+      }
+    },
+    {
+      name: "Brant",
+      img: "Brant.PNG",
+      opts: {
+        setting: ["misc"],
+        group: ["meme", "ignis"],
+        notab: ["pop", "dnd"]
       }
     },
     {
@@ -1022,7 +1041,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["misc"],
         group: ["protag", "favs"],
-        notab: ["pop", "th", "rp"]
+        notab: ["th", "rp"]
       }
     },
     {
@@ -1175,7 +1194,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["psu"],
         group: ["antag"],
-        notab: ["pop", "rp"]
+        notab: ["rp"]
       }
     },
     {
@@ -1678,8 +1697,8 @@ dataSet[dataSetVersion].options = [
       img: "Humilia.PNG",
       opts: {
         setting: ["side", "heav"],
-        group: ["supb"],
-        notab: ["pop", "tourn", "rp", "plot"]
+        group: ["supb", "favs"],
+        notab: ["pop", "tourn", "rp", "plot", "dnd"]
       }
     },
     {
@@ -1760,7 +1779,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: ["antag", "favs"],
-        notab: []
+        notab: ["rp"]
       }
     },
     {
@@ -2434,8 +2453,8 @@ dataSet[dataSetVersion].options = [
       img: "Monacha.PNG",
       opts: {
         setting: ["heav"],
-        group: [],
-        notab: ["th", "rp"]
+        group: ["antag"],
+        notab: ["th", "rp", "dnd"]
       }
     },
     {
@@ -2624,7 +2643,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["heav"],
         group: ["favs"],
-        notab: ["tourn", "th", "rp"]
+        notab: ["tourn", "th", "rp", "dnd"]
       }
     },
     {
@@ -2682,6 +2701,15 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
+      name: "Ophius",
+      img: "Serpentarius.PNG",
+      opts: {
+        setting: ["side"],
+        group: ["sidep", "favs"],
+        notab: ["pop", "rp"]
+      }
+    },
+    {
       name: "Opine Frazil",
       img: "Opine.PNG",
       opts: {
@@ -2714,7 +2742,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side", "alt"],
         group: ["antag", "favs"],
-        notab: ["pop", "rp"]
+        notab: ["rp"]
       }
     },
     {
@@ -2786,7 +2814,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["side"],
         group: ["favs"],
-        notab: ["pop", "rp"]
+        notab: ["rp"]
       }
     },
     {
@@ -2961,6 +2989,15 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
+      name: "Radueriel",
+      img: "Radueriel.PNG",
+      opts: {
+        setting: ["heav"],
+        group: ["antag", "favs"],
+        notab: ["dnd"]
+      }
+    },
+    {
       name: "Raguel",
       img: "Raguel.PNG",
       opts: {
@@ -3006,6 +3043,15 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
+      name: "Rhadamanthus",
+      img: "Rhadamanthus.PNG",
+      opts: {
+        setting: ["heav"],
+        group: ["favs"],
+        notab: ["pop", "dnd"]
+      }
+    },
+    {
       name: "Rhiannon Blanchard",
       img: "Rhiannon.PNG",
       opts: {
@@ -3015,12 +3061,21 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
+      name: "Rhododendron",
+      img: "Rhododendron.PNG",
+      opts: {
+        setting: ["heav"],
+        group: [],
+        notab: ["dnd"]
+      }
+    },
+    {
       name: "Rigel",
       img: "Rigel.PNG",
       opts: {
         setting: ["side"],
         group: ["antag", "favs"],
-        notab: ["pop", "tourn", "rp"]
+        notab: ["pop", "tourn", "rp", "dnd"]
       }
     },
     {
@@ -3195,15 +3250,6 @@ dataSet[dataSetVersion].options = [
       }
     },
     {
-      name: "Serpentarius",
-      img: "Serpentarius.PNG",
-      opts: {
-        setting: ["side"],
-        group: ["sidep", "favs"],
-        notab: ["pop", "rp"]
-      }
-    },
-    {
       name: "Shan",
       img: "Shan.PNG",
       opts: {
@@ -3219,6 +3265,15 @@ dataSet[dataSetVersion].options = [
         setting: ["vn"],
         group: [],
         notab: ["rp"]
+      }
+    },
+    {
+      name: "Sirius",
+      img: "Sirius.png",
+      opts: {
+        setting: ["side"],
+        group: [],
+        notab: ["dnd"]
       }
     },
     {
@@ -3325,7 +3380,7 @@ dataSet[dataSetVersion].options = [
       img: "Theocritus.PNG",
       opts: {
         setting: ["misc"],
-        group: ["protag", "favs"],
+        group: ["protag"],
         notab: ["th", "rp"]
       }
     },
@@ -3388,7 +3443,7 @@ dataSet[dataSetVersion].options = [
       img: "Trigger.PNG",
       opts: {
         setting: ["syol", "misc"],
-        group: ["antag", "favs"],
+        group: ["antag"],
         notab: ["pop", "tourn", "rp", "plot"]
       }
     },
@@ -3487,7 +3542,7 @@ dataSet[dataSetVersion].options = [
       img: "Venith.PNG",
       opts: {
         setting: ["syol"],
-        group: ["reps", "favs"],
+        group: ["reps"],
         notab: ["pop", "th", "rp"]
       }
     },
@@ -3505,7 +3560,7 @@ dataSet[dataSetVersion].options = [
       img: "Verity.PNG",
       opts: {
         setting: ["lila"],
-        group: ["antag", "favs"],
+        group: ["antag"],
         notab: ["pop"]
       }
     },
@@ -3523,7 +3578,7 @@ dataSet[dataSetVersion].options = [
       img: "Vesuvael.PNG",
       opts: {
         setting: ["asth"],
-        group: ["favs"],
+        group: [],
         notab: ["niche"]
       }
     },
@@ -3568,7 +3623,7 @@ dataSet[dataSetVersion].options = [
       img: "Vivace.PNG",
       opts: {
         setting: ["mds"],
-        group: ["favs"],
+        group: [],
         notab: ["rp"]
       }
     },
