@@ -609,7 +609,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["heav"],
         group: ["antag"],
-        notab: ["rp"]
+        notab: ["rp", "dnd"]
       }
     },
     {
@@ -1770,7 +1770,7 @@ dataSet[dataSetVersion].options = [
       opts: {
         setting: ["hell"],
         group: [],
-        notab: ["th", "niche"]
+        notab: ["th", "dnd"]
       }
     },
     {
